@@ -43,7 +43,10 @@ void LinearSearch() {
             }
             i++;
         }
-
+        if (i == n)
+            cout << "\n" << item << "not found in the array\n";
+        cout << "\nContinue Search (y/n):";
+        cin >> ch;
     }
 }
 int main()
