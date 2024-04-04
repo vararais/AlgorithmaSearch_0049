@@ -56,7 +56,10 @@ void display() {
         cout << arr[i] << " ";
     cout << endl;
 }
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    LinearSearch();
+    display();
 }
